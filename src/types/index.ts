@@ -20,7 +20,19 @@ export interface Brand {
   image: string;
 }
 
+export interface Service {
+  name: string;
+  link: string;
+}
+
 export interface OurBrandsProps {
   header: string;
   brands: Brand[];
+  link: string;
+  linkText: string;
+}
+
+export interface OurServicesBlockProps {
+  header: string;
+  services: Service[];
 }

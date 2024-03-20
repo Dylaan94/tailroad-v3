@@ -1,10 +1,15 @@
 import Hero from "../components/Hero";
 import ColumnTextLink from "../components/ColumnTextLink";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-import { columnTextLinkContent, ourBrandsContent } from "./content";
+import {
+  columnTextLinkContent,
+  ourBrandsContent,
+  ourServicesContent,
+} from "./content";
 import OurBrands from "../components/OurBrands";
 import TailroadLoading from "@/components/TailroadLoading";
+import OurServices from "@/components/OurServicesBlock";
 
 export default function Home() {
   // state to check if the page is loading, show loading component for 3 seconds
@@ -15,6 +20,13 @@ export default function Home() {
     setIsLoading(false);
   }, 4000);
 
+  useEffect(() => {
+    // if user scrolls before the 3 seconds, close the loading component
+    window.onscroll = () => {
+      setIsLoading(false);
+    };
+  }, []);
+
   if (isLoading) {
     return <TailroadLoading />;
   }
@@ -24,6 +36,8 @@ export default function Home() {
       <Hero />
       <ColumnTextLink {...columnTextLinkContent} />
       <OurBrands {...ourBrandsContent} />
+      <OurServices {...ourServicesContent} />
+      
     </main>
   );
 }
