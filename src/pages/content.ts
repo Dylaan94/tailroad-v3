@@ -89,6 +89,14 @@ export const ourServicesContent: OurServicesBlockProps = {
   ],
 };
 
+export const textImageContent = {
+  header: "our approach",
+  image: "/images/our-approach.png",
+  text: "our design process is collaborative and iterative. with every new project we sit down with you and listen to your needs and work through five distinct phases to give you the best quality outcomes",
+  link: "/our-approach",
+  linkText: "learn more",
+};
+
 const content = {
   columnTextLinkContent,
   ourBrandsContent,

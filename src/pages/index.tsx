@@ -6,10 +6,12 @@ import {
   columnTextLinkContent,
   ourBrandsContent,
   ourServicesContent,
+  textImageContent,
 } from "./content";
 import OurBrands from "../components/OurBrands";
 import TailroadLoading from "@/components/TailroadLoading";
 import OurServices from "@/components/OurServicesBlock";
+import TextImage from "@/components/TextImage";
 
 export default function Home() {
   // state to check if the page is loading, show loading component for 3 seconds
@@ -37,7 +39,7 @@ export default function Home() {
       <ColumnTextLink {...columnTextLinkContent} />
       <OurBrands {...ourBrandsContent} />
       <OurServices {...ourServicesContent} />
-      
+      <TextImage {...textImageContent} />
     </main>
   );
 }

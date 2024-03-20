@@ -36,3 +36,12 @@ export interface OurServicesBlockProps {
   header: string;
   services: Service[];
 }
+
+export interface TextImageProps {
+  header: string;
+  image: string;
+  text: string;
+  link: string;
+  linkText: string;
+  backgroundColour?: string;
+}

@@ -13,7 +13,9 @@ export default function OurBrands({
     <section className="bg-secondary-green py-24 flex justify-center">
       <div className="w-11/12 max-w-screen-2xl flex flex-col items-center">
         <ScrollAnimation animateIn="fadeInUp">
-          <h3 className="text-3xl text-center mb-12">{header}</h3>
+          <h3 className="text-3xl text-primary-dark text-center mb-12">
+            {header}
+          </h3>
         </ScrollAnimation>
 
         <div className="flex flex-wrap justify-center">
@@ -35,7 +37,9 @@ export default function OurBrands({
         </div>
 
         <Link className="text-primary-dark self-end mt-6" href={link}>
-          <ScrollAnimation animateIn="fadeInUp">{linkText}</ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={brands.length * 300}>
+            {linkText}
+          </ScrollAnimation>
         </Link>
       </div>
     </section>
