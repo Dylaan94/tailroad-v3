@@ -1,0 +1,128 @@
+// fade in
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// fade in up with bezier
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// animation that sets opacity to 0, waits 2 seconds and then sets opacity to 1
+@keyframes fadeInSlow {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// slide in from right hand side
+@keyframes slideInRight {
+  from {
+    opacity: 1;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// slide in from left slow
+@keyframes slideInLeftSlow {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+// jump up and down animation
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeInSlow {
+  animation: fadeInSlow 3s ease-in-out;
+}
+
+.fadeInSlowDelay {
+  animation: fadeIn 5s ease-in-out;
+}
+
+.slideInLeftSlow {
+  animation: slideInLeftSlow 3s ease-in-out;
+}
+
+.fadeInUp {
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.slideInRight {
+  animation: slideInRight 1s ease-in-out;
+}
+
+// delay in seconds from 1 to 10
+.fadeInDelay5 {
+  animation: fadeInSlow 5s ease-in-out;
+}
+
+.fadeInOut {
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+.jump {
+  animation: jump 3s ease-in-out infinite;
+  animation-delay: 5s;
+}
