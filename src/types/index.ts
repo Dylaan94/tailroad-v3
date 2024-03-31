@@ -45,3 +45,19 @@ export interface TextImageProps {
   linkText: string;
   backgroundColour?: string;
 }
+
+export interface TextImageStackProps {
+  header?: string;
+  image?: string;
+  text_1?: string;
+  text_2?: string;
+  link?: string;
+  linkText?: string;
+  imageLeft?: boolean;
+  delay?: number;
+}
+
+export interface OurWorkBlockProps {
+  header: string;
+  caseStudies: TextImageStackProps[];
+}

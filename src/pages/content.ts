@@ -4,6 +4,8 @@ import {
   ColumnTextLinkProps,
   OurBrandsProps,
   OurServicesBlockProps,
+  OurWorkBlockProps,
+  TextImageProps,
 } from "@/types";
 
 export const columnTextLinkContent: ColumnTextLinkProps = {
@@ -89,12 +91,37 @@ export const ourServicesContent: OurServicesBlockProps = {
   ],
 };
 
-export const textImageContent = {
+export const textImageContent: TextImageProps = {
   header: "our approach",
   image: "/images/our-approach.png",
   text: "our design process is collaborative and iterative. with every new project we sit down with you and listen to your needs and work through five distinct phases to give you the best quality outcomes",
   link: "/our-approach",
   linkText: "learn more",
+};
+
+export const ourWorkContent: OurWorkBlockProps = {
+  header: "our work",
+  caseStudies: [
+    {
+      header: "responsive multi-platform development",
+      image: "/images/caseStudies/honyakuCloud.png",
+      text_1:
+        " we specialise in multi platform experiences, utilising the tools most appropriate for your business ",
+      text_2: "see our solution to an online translation service below",
+      link: "/our-work/honyaku-cloud",
+      linkText: "view case study",
+    },
+    {
+      header: "multi-language sites developed in-house",
+      image: "/images/caseStudies/hachinohe.png",
+      text_1:
+        "in house translators handle all of your internationalisation needs, from simple translations to copy that is appropriate for your target market",
+      text_2:
+        "see our work for a tourism even in Japan in three languages: English, Japanese and Chinese",
+      link: "/our-work/hachinohe",
+      linkText: "view case study",
+    },
+  ],
 };
 
 const content = {

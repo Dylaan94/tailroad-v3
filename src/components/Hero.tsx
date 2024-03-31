@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 export default function Hero() {
   return (
     <>
-      <section className="hero w-screen h-screen relative bg-primary-dark flex  ">
+      <section className="hero w-screen h-screen relative bg-zinc-950 flex  ">
         <div className=" w-1/2 2xl:w-[51%] h-full relative fadeInDelay5">
           {/* <Image with clip path */}
           <Image
