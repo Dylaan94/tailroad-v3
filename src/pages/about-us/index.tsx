@@ -1,6 +1,7 @@
 // components
 import FounderBanner from "@/components/FounderBanner";
 import PageHero from "@/components/PageHero";
+import TextImageColumn from "@/components/TextImageColumn";
 import Image from "next/image";
 
 export default function AboutUs() {
@@ -16,6 +17,12 @@ export default function AboutUs() {
         />
       </span>
       <FounderBanner contentSelector="founderBannerContent" />
+      <TextImageColumn contentSelector="textImageColumnContent_1" />
+      <TextImageColumn
+        contentSelector="textImageColumnContent_2"
+        imageOnLeft={true}
+        background="bg-white"
+      />
     </main>
   );
 }
