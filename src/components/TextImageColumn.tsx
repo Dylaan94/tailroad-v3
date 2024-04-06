@@ -15,7 +15,7 @@ export default function TextImageColumn({
   const t = useTranslations(contentSelector);
 
   return (
-    <section className={`textColumns flex justify-center py-24 ${background}`}>
+    <section className={`textColumns flex justify-center py-40 ${background}`}>
       <div
         className={`textColumns-container flex-col max-w-screen-xl w-11/12 flex ${
           imageOnLeft ? "sm:flex-row-reverse" : "sm:flex-row"

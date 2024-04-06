@@ -24,5 +24,13 @@
     "par_3": "At tailroad, we are dedicated to helping businesses succeed in the digital age. Whether you need a new website or a custom app, we have the skills and expertise to bring your vision to life.",
     "image": "/images/birminghamCanal.jpg",
     "imageAlt": "Image of Birmingham Canal"
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
   }
 }

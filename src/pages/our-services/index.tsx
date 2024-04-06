@@ -1,4 +1,5 @@
 // components
+import CallToAction from "@/components/CallToAction";
 import PageHero from "@/components/PageHero";
 import Image from "next/image";
 
@@ -16,6 +17,7 @@ export default function page() {
           quality={30}
         />
       </span>
+      <CallToAction contentSelector="callToActionContent" />
     </main>
   );
 }

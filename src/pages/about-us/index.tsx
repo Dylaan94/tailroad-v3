@@ -1,4 +1,5 @@
 // components
+import CallToAction from "@/components/CallToAction";
 import FounderBanner from "@/components/FounderBanner";
 import PageHero from "@/components/PageHero";
 import TextImageColumn from "@/components/TextImageColumn";
@@ -25,6 +26,7 @@ export default function AboutUs() {
         imageOnLeft={true}
         background="bg-white"
       />
+      <CallToAction contentSelector="callToActionContent" />
     </main>
   );
 }
