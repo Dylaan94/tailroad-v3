@@ -13,7 +13,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="h-24 fadeInDelay5 flex justify-center w-full bg-transparent absolute z-50 top-0 left-0 josefin-sans ">
+    <header className="h-24 fadeInDelay5 flex justify-center w-full bg-transparent absolute z-50 top-0 left-0 tailroad-font ">
       <div className=" items-center flex justify-between w-[95%] ">
         <Link href="/">
           <Image src={"/images/logo.png"} alt="logo" width={60} height={60} />

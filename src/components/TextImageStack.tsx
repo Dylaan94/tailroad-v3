@@ -32,7 +32,8 @@ export default function TextImageStack({
           src={image || ""}
           alt={`image for ${header} image in image stack` || ""}
           fill={true}
-          objectFit="contain"
+          sizes="800px"
+          className="object-contain"
         />
       </ScrollAnimation>
 
@@ -41,9 +42,9 @@ export default function TextImageStack({
         animateIn="fadeIn"
         delay={600 * delay}
       >
-        <h3 className="text-4xl mb-12 ">{header}</h3>
-        <p className="mb-4 text-xl roboto">{text_1}</p>
-        <p className="mb-4 text-xl roboto">{text_2}</p>
+        <h3 className="text-4xl mb-12 secondary-font ">{header}</h3>
+        <p className="mb-4 text-xl primary-font">{text_1}</p>
+        <p className="mb-4 text-xl primary-font">{text_2}</p>
 
         <SimpleButtonLink
           internalLink={true}

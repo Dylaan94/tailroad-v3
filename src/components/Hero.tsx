@@ -9,16 +9,16 @@ export default function Hero() {
           {/* <Image with clip path */}
           <Image
             src="/images/bridge.png"
-            layout="fill"
-            objectFit="cover"
+            fill={true}
+            sizes="100vw"
             alt="bridge"
-            className="[clip-path:polygon(0_0,100%_0,80%_100%,0%_100%)] opacity-60"
+            className="[clip-path:polygon(0_0,100%_0,80%_100%,0%_100%)] opacity-60 object-cover"
           />
         </div>
 
         {/* Header */}
         <div className="absolute w-full h-full flex items-center justify-center">
-          <h1 className=" text-[150px] lg:text-[200px] 2xl:text-[300px] josefin-sans ">
+          <h1 className=" text-[150px] lg:text-[200px] 2xl:text-[300px] tailroad-font ">
             <Typewriter
               options={{
                 cursor: "",

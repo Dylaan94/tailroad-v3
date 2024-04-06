@@ -1,0 +1,101 @@
+{
+  "columnTextLinkContent": {
+    "mainText": "tailroad, a fullstack web agency pushing the boundaries of digital design and development",
+    "subText_1": "creating websites is more than just code, its understanding your businesss and the impact that you want to have online and how the world sees you",
+    "subText_2": "we work with you to create a digital presence that is unique to you and your business",
+    "linkText": "contact us",
+    "linkUrl": "/contact-us"
+  },
+  "ourBrandsContent": {
+    "header": "brands we've worked with",
+    "brand_1": {
+      "name": "Honyaku Cloud",
+      "image": "/images/brands/honyaku.png"
+    },
+    "brand_2": {
+      "name": "Queen & Co",
+      "image": "/images/brands/queenco.png"
+    },
+    "brand_3": {
+      "name": "Crest Environmental",
+      "image": "/images/brands/crest.png"
+    },
+    "brand_4": {
+      "name": "Hachinohe City",
+      "image": "/images/brands/hachinohe.png"
+    },
+    "brand_5": {
+      "name": "Asoviva",
+      "image": "/images/brands/asoviva.png"
+    },
+    "brand_6": {
+      "name": "Manabu Dev",
+      "image": "/images/brands/manabu.png"
+    },
+
+    "link": "/our-work",
+    "linkText": "view our case studies"
+  },
+  "ourServicesContent": {
+    "header": "our services",
+
+    "service_1": {
+      "name": "website development",
+      "link": "/our-services/website-development"
+    },
+    "service_2": {
+      "name": "website design",
+      "link": "/our-services/website-design"
+    },
+    "service_3": {
+      "name": "e-commerce development",
+      "link": "/our-services/e-commerce-development"
+    },
+    "service_4": {
+      "name": "mobile app development",
+      "link": "/our-services/mobile-app-development"
+    },
+    "service_5": {
+      "name": "web app development",
+      "link": "/our-services/web-app-development"
+    },
+    "service_6": {
+      "name": "search engine optimisation (SEO)",
+      "link": "/our-services/seo"
+    },
+    "service_7": {
+      "name": "internationalisation",
+      "link": "/our-services/internationalisation"
+    },
+    "service_8": {
+      "name": "brochure design",
+      "link": "/our-services/brochure-design"
+    }
+  },
+  "textImageContent": {
+    "header": "our approach",
+    "image": "/images/our-approach.png",
+    "text": "our design process is collaborative and iterative. with every new project we sit down with you and listen to your needs and work through five distinct phases to give you the best quality outcomes",
+    "link": "/our-approach",
+    "linkText": "learn more"
+  },
+  "ourWorkContent": {
+    "header": "our work",
+    "caseStudy_1": {
+      "header": "responsive multi-platform development",
+      "image": "/images/caseStudies/honyakuCloud.png",
+      "text_1": " we specialise in multi platform experiences, utilising the tools most appropriate for your business ",
+      "text_2": "see our solution to an online translation service below",
+      "link": "/our-work/honyaku-cloud",
+      "linkText": "view case study"
+    },
+    "caseStudy_2": {
+      "header": "multi-language sites developed in-house",
+      "image": "/images/caseStudies/hachinohe.png",
+      "text_1": "in house translators handle all of your internationalisation needs, from simple translations to copy that is appropriate for your target market",
+      "text_2": "see our work for a tourism even in Japan in three languages: English, Japanese and Chinese",
+      "link": "/our-work/hachinohe",
+      "linkText": "view case study"
+    }
+  }
+}

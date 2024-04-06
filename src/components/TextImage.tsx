@@ -2,21 +2,25 @@ import { TextImageProps } from "@/types";
 import ScrollAnimation from "react-animate-on-scroll";
 import Image from "next/image";
 import SimpleButtonLink from "./SimpleButtonLink";
+import { useTranslations } from "next-intl";
 
 export default function TextImage({
-  header,
-  image,
-  text,
-  link,
-  linkText,
+  contentSelector,
   backgroundColour = "bg-zinc-50",
-}: TextImageProps) {
+}: {
+  contentSelector: string;
+  backgroundColour?: string;
+}) {
+  const t = useTranslations(contentSelector);
+
   return (
     <section className={`${backgroundColour} py-36 flex justify-center w-full`}>
       <div className="w-11/12 max-w-screen-2xl flex justify-between">
         {/* Left Column */}
         <ScrollAnimation className="w-2/5" animateIn="fadeInUp">
-          <h2 className="text-4xl text-primary-dark  mb-16">{header}</h2>
+          <h2 className="text-4xl secondary-font text-primary-dark  mb-16">
+            {t("header")}
+          </h2>
         </ScrollAnimation>
         {/* Right Column */}
 
@@ -26,22 +30,29 @@ export default function TextImage({
             className="w-full relative h-[800px]"
           >
             <Image
-              src={image}
-              alt={`image for ${header}`}
+              src={t("image")}
+              alt={`image for ${t("header")}`}
               fill={true}
-              objectFit="cover"
+              sizes="800px"
+              className="object-cover"
             />
           </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeIn" className="w-full">
-            <p className="text-2xl roboto text-primary-dark pt-12">{text}</p>
+            <p className="text-2xl primary-font text-primary-dark pt-12">
+              {t("text")}
+            </p>
           </ScrollAnimation>
 
           <ScrollAnimation
             animateIn="fadeIn"
             className="w-full flex justify-end"
           >
-            <SimpleButtonLink internalLink={true} text={linkText} link={link} />
+            <SimpleButtonLink
+              internalLink={true}
+              text={t("linkText")}
+              link={t("link")}
+            />
           </ScrollAnimation>
         </div>
       </div>

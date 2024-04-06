@@ -1,0 +1,107 @@
+{
+  "columnTextLinkContent": {
+    "mainText": "tailroad、デジタルデザインと開発の限界を押し広げるフルスタックウェブエージェンシー",
+    "subText": {
+      "subText_1": "ウェブサイトの作成は単なるコーディング以上のものです。それは、オンラインでのあなたのビジネスと影響力、そして世界があなたをどう見るかを理解することです",
+      "subText_2": "あなたとあなたのビジネスに固有のデジタルプレゼンスを作成するために、私たちはあなたと協力します"
+    },
+    "linkText": "お問い合わせ",
+    "linkUrl": "/contact-us"
+  },
+  "ourBrandsContent": {
+    "header": "私たちが協力したブランド",
+    "brands": [
+      {
+        "name": "Honyaku Cloud",
+        "image": "/images/brands/honyaku.png"
+      },
+      {
+        "name": "Queen & Co",
+        "image": "/images/brands/queenco.png"
+      },
+      {
+        "name": "Crest Environmental",
+        "image": "/images/brands/crest.png"
+      },
+      {
+        "name": "Hachinohe City",
+        "image": "/images/brands/hachinohe.png"
+      },
+      {
+        "name": "Asoviva",
+        "image": "/images/brands/asoviva.png"
+      },
+      {
+        "name": "Manabu Dev",
+        "image": "/images/brands/manabu.png"
+      }
+    ],
+    "link": "/our-work",
+    "linkText": "ケーススタディを見る"
+  },
+  "ourServicesContent": {
+    "header": "私たちのサービス",
+    "services": [
+      {
+        "name": "ウェブサイト開発",
+        "link": "/our-services/website-development"
+      },
+      {
+        "name": "ウェブサイトデザイン",
+        "link": "/our-services/website-design"
+      },
+      {
+        "name": "Eコマース開発",
+        "link": "/our-services/e-commerce-development"
+      },
+      {
+        "name": "モバイルアプリ開発",
+        "link": "/our-services/mobile-app-development"
+      },
+      {
+        "name": "ウェブアプリ開発",
+        "link": "/our-services/web-app-development"
+      },
+      {
+        "name": "検索エンジン最適化（SEO）",
+        "link": "/our-services/seo"
+      },
+      {
+        "name": "国際化",
+        "link": "/our-services/internationalisation"
+      },
+      {
+        "name": "パンフレットデザイン",
+        "link": "/our-services/brochure-design"
+      }
+    ]
+  },
+  "textImageContent": {
+    "header": "私たちのアプローチ",
+    "image": "/images/our-approach.png",
+    "text": "私たちのデザインプロセスは協力的で反復的です。新しいプロジェクトごとに、私たちはあなたと座ってあなたのニーズを聞き、最高品質の成果を提供するために五つの異なるフェーズを通して作業します",
+    "link": "/our-approach",
+    "linkText": "もっと学ぶ"
+  },
+  "ourWorkContent": {
+    "header": "私たちの仕事",
+    "caseStudies": [
+      {
+        "header": "レスポンシブなマルチプラットフォーム開発",
+        "image": "/images/caseStudies/honyakuCloud.png",
+        "text_1": "私たちは、あなたのビジネスに最も適したツールを利用したマルチプラットフォーム体験を専門としています",
+        "text_2": "オンライン翻訳サービスへの私たちの解決策を以下に示します",
+        "link": "/our-work/honyaku-cloud",
+        "linkText": "ケーススタディを見る"
+      },
+      {
+        "header": "社内開発の多言語サイト",
+        "image": "/images/caseStudies/hachinohe.png",
+        "text_1": "社内の翻訳者が、シンプルな翻訳からターゲット市場に適したコピーまで、あなたの国際化のニーズすべてを処理します",
+        "text_2": "英語、日本語、中国語の3言語で日本の観光イベントのための私たちの仕事を見てください",
+        "link": "/our-work/hachinohe",
+        "linkText": "ケーススタディを見る"
+      }
+    ]
+  }
+}

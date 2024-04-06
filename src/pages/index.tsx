@@ -18,10 +18,17 @@ import OurWorkBlock from "@/components/OurWorkBlock";
 import Hero from "../components/Hero";
 import ColumnTextLink from "../components/ColumnTextLink";
 
+// utils
+import { useTranslations } from "next-intl";
+
 export default function Home() {
   // state to check if the page is loading, show loading component for 3 seconds
   // then show the main content
   const [isLoading, setIsLoading] = useState(true);
+
+  // translations
+  const t = useTranslations();
+
 
   // setTimeout(() => {
   //   setIsLoading(false);
@@ -41,11 +48,19 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <ColumnTextLink {...columnTextLinkContent} />
-      <OurBrands {...ourBrandsContent} />
-      <OurServices {...ourServicesContent} />
-      <TextImage {...textImageContent} />
-      <OurWorkBlock {...ourWorkContent} />
+      <ColumnTextLink contentSelector="columnTextLinkContent" />
+      <OurBrands contentSelector="ourBrandsContent" />
+      <OurServices contentSelector="ourServicesContent" />
+      <TextImage contentSelector="textImageContent" />
+      <OurWorkBlock contentSelector="ourWorkContent" />
     </main>
   );
+}
+
+export async function getStaticProps(context: any) {
+  return {
+    props: {
+      messages: (await import(`./messages/${context.locale}.json`)).default,
+    },
+  };
 }

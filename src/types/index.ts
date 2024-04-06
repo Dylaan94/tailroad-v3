@@ -10,11 +10,11 @@ export interface SimpleButtonLinkProps {
 
 export interface ColumnTextLinkProps {
   mainText: string;
-  subText: string[];
+  subText_1: string;
+  subText_2: string;
   linkText: string;
   linkUrl: string;
 }
-
 export interface Brand {
   name: string;
   image: string;
@@ -27,7 +27,12 @@ export interface Service {
 
 export interface OurBrandsProps {
   header: string;
-  brands: Brand[];
+  brand_1?: Brand;
+  brand_2?: Brand;
+  brand_3?: Brand;
+  brand_4?: Brand;
+  brand_5?: Brand;
+  brand_6?: Brand;
   link: string;
   linkText: string;
 }
