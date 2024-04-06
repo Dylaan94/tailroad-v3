@@ -113,6 +113,10 @@
   animation: slideInRight 1s ease-in-out;
 }
 
+.fadeInDelay2 {
+  animation: fadeInSlow 2s ease-in-out;
+}
+
 // delay in seconds from 1 to 10
 .fadeInDelay5 {
   animation: fadeInSlow 5s ease-in-out;

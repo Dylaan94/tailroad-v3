@@ -29,7 +29,7 @@ export default function Hero() {
                   .typeString(`<span style="color: #fff"> hey, </span>`)
                   .pauseFor(100)
                   .deleteChars(5)
-                  .typeString(`<span style="color: #5BC5B7">こんにちは</span>`)
+                  .typeString(`<span style="color: #5BC5B7">ようこそ</span>`)
                   .pauseFor(200)
                   .deleteChars(5)
                   .typeString(

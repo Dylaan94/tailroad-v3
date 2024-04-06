@@ -1,14 +1,5 @@
 import { useEffect, useState } from "react";
 
-// content
-import {
-  columnTextLinkContent,
-  ourBrandsContent,
-  ourServicesContent,
-  textImageContent,
-  ourWorkContent,
-} from "./content";
-
 // components
 import OurBrands from "../components/OurBrands";
 import TailroadLoading from "@/components/TailroadLoading";
@@ -29,7 +20,6 @@ export default function Home() {
   // translations
   const t = useTranslations();
 
-
   // setTimeout(() => {
   //   setIsLoading(false);
   // }, 4000);
@@ -48,7 +38,10 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <ColumnTextLink contentSelector="columnTextLinkContent" />
+      <ColumnTextLink
+        contentSelector="columnTextLinkContent"
+        highlightTailroad={true}
+      />
       <OurBrands contentSelector="ourBrandsContent" />
       <OurServices contentSelector="ourServicesContent" />
       <TextImage contentSelector="textImageContent" />

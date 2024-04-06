@@ -1,9 +1,21 @@
+// components
+import FounderBanner from "@/components/FounderBanner";
 import PageHero from "@/components/PageHero";
+import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <main className="">
-      <PageHero contentSelector="aboutUsHero" />
+    <main className="w-full">
+      <PageHero contentSelector="pageHeroContent" />
+      <span className="relative flex w-full h-[300px]">
+        <Image
+          className="object-cover"
+          alt="onomichiSuidou"
+          fill={true}
+          src="/images/onomichiSuidou.png"
+        />
+      </span>
+      <FounderBanner contentSelector="founderBannerContent" />
     </main>
   );
 }
