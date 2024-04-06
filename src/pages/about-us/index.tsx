@@ -13,6 +13,8 @@ export default function AboutUs() {
           className="object-cover"
           alt="onomichiSuidou"
           fill={true}
+          sizes="100vw"
+          quality={50}
           src="/images/onomichiSuidou.png"
         />
       </span>

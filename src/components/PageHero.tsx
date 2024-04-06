@@ -12,7 +12,7 @@ export default function PageHero({
       <h1 className="text-3xl fadeIn fadeInDelay2  primary-font text-primary-green">
         {t("header")}
       </h1>
-      <span className="pageHero-typewriter text-[100px] tailroad-font text-white">
+      <span className="pageHero-typewriter text-[100px] tailroad-font text-white max-w-screen-xl w-11/12 text-center">
         <Typewriter
           options={{
             deleteSpeed: 25,
