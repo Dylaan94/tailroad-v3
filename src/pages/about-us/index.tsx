@@ -7,11 +7,11 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <main className="w-full">
+    <main className="w-full  bg-primary-dark ">
       <PageHero contentSelector="pageHeroContent" />
-      <span className="relative flex w-full h-[300px]">
+      <span className="relative flex w-full h-[300px] fadeIn">
         <Image
-          className="object-cover"
+          className="object-cover bg-primary-dark"
           alt="onomichiSuidou"
           fill={true}
           sizes="100vw"

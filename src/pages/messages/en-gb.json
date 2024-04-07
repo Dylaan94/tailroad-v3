@@ -97,5 +97,13 @@
       "link": "/our-work/hachinohe",
       "linkText": "view case study"
     }
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
   }
 }

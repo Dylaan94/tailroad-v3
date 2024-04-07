@@ -2,5 +2,56 @@
   "pageHeroContent": {
     "header": "our services",
     "tagline": "experts, visionaries, humans"
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  },
+  "ourServicesContent": {
+    "header": "our services",
+
+    "service_1": {
+      "name": "website development",
+      "link": "/our-services/website-development"
+    },
+    "service_2": {
+      "name": "website design",
+      "link": "/our-services/website-design"
+    },
+    "service_3": {
+      "name": "e-commerce development",
+      "link": "/our-services/e-commerce-development"
+    },
+    "service_4": {
+      "name": "mobile app development",
+      "link": "/our-services/mobile-app-development"
+    },
+    "service_5": {
+      "name": "web app development",
+      "link": "/our-services/web-app-development"
+    },
+    "service_6": {
+      "name": "search engine optimisation (SEO)",
+      "link": "/our-services/seo"
+    },
+    "service_7": {
+      "name": "internationalisation",
+      "link": "/our-services/internationalisation"
+    },
+    "service_8": {
+      "name": "brochure design",
+      "link": "/our-services/brochure-design"
+    }
+  },
+  "textImageColumnContent_1": {
+    "par_1": "at tailroad we don't just push out projects, we work with you to understand your business and your goals. we are a team of experts, visionaries and humans who are passionate about helping and continually supporting businesses whatever stage they are at.",
+    "par_2": "we are a full-service digital agency, offering a range of services to help you achieve your digital goals. whether you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_3": "check out our list of services below to see how we can help you.",
+    "image": "/images/lightbulb.jpg",
+    "imageAlt": "image of a lightbulb"
   }
 }

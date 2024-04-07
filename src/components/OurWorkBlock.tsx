@@ -13,7 +13,7 @@ export default function OurWorkBlock({
 
   return (
     <section className="ourWorkBlock flex justify-center text-primary-dark">
-      <div className="w-11/12 max-w-screen-2xl flex flex-col py-44 ">
+      <div className="w-11/12 max-w-screen-2xl flex flex-col pt-44 ">
         <ScrollAnimation animateIn="fadeInUp">
           <h2 className="text-4xl secondary-font mb-12">{t("header")}</h2>
         </ScrollAnimation>

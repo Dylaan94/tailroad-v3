@@ -1,6 +1,7 @@
 // components
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function CallToAction({
   contentSelector,
@@ -12,12 +13,17 @@ export default function CallToAction({
   const t = useTranslations(contentSelector);
 
   return (
-    <section className={`callToAction ${background}`}>
-      <div className="callToAction-container max-w-screen-xl w-11/12 flex py-16">
+    <section
+      className={`callToAction ${background} w-full flex justify-center`}
+    >
+      <div className="callToAction-container max-w-screen-xl w-3/4 flex py-16">
         {/* Left */}
-        <div className="callToAction-left flex items-center justify-center w-2/3">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          className="callToAction-left flex items-center  w-2/3"
+        >
           {/* Left Content box */}
-          <span className="callToAction-left-content flex flex-col items-center w-3/4 bg-zinc-50 p-16 text-center text-primary-dark text-2xl primary-font">
+          <span className="callToAction-left-content flex flex-col items-center w-11/12 bg-zinc-50 p-16 text-center text-primary-dark text-2xl primary-font">
             {/* text content */}
             <p className="mb-6">{t("par_1")}</p>
             <p>{t("par_2")}</p>
@@ -30,10 +36,14 @@ export default function CallToAction({
               height={50}
             />
           </span>
-        </div>
+        </ScrollAnimation>
 
         {/* Right */}
-        <div className="callToAction-right w-1/3 border-l border-primary-dark ">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          delay={500}
+          className="callToAction-right w-1/3 border-l border-primary-dark "
+        >
           {/* Form */}
 
           <form
@@ -72,7 +82,7 @@ export default function CallToAction({
               {t("form_button")}
             </button>
           </form>
-        </div>
+        </ScrollAnimation>
       </div>
     </section>
   );

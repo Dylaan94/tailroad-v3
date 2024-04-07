@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function TextImageColumn({
   contentSelector,
@@ -14,6 +15,8 @@ export default function TextImageColumn({
 
   const t = useTranslations(contentSelector);
 
+  console.log(t("image"));
+
   return (
     <section className={`textColumns flex justify-center py-40 ${background}`}>
       <div
@@ -21,7 +24,8 @@ export default function TextImageColumn({
           imageOnLeft ? "sm:flex-row-reverse" : "sm:flex-row"
         }`}
       >
-        <div
+        <ScrollAnimation
+          animateIn="fadeInUp"
           className={`textColumns-left w-full sm:w-1/2 ${
             imageOnLeft ? "" : "mr-16"
           }`}
@@ -34,8 +38,10 @@ export default function TextImageColumn({
               {t(paragraph)}
             </p>
           ))}
-        </div>
-        <div
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="fadeIn"
+          delay={500}
           className={`textColumns-right w-full sm:w-1/2 pl-12 h-[400px] sm:h-full relative ${
             imageOnLeft ? "mr-16" : ""
           } `}
@@ -48,7 +54,7 @@ export default function TextImageColumn({
             sizes="50vw, 100vw"
             quality={50}
           />
-        </div>
+        </ScrollAnimation>
       </div>
     </section>
   );

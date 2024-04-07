@@ -1,6 +1,8 @@
 // components
 import CallToAction from "@/components/CallToAction";
+import OurServicesBlock from "@/components/OurServicesBlock";
 import PageHero from "@/components/PageHero";
+import TextImageColumn from "@/components/TextImageColumn";
 import Image from "next/image";
 
 export default function page() {
@@ -17,6 +19,8 @@ export default function page() {
           quality={30}
         />
       </span>
+      <TextImageColumn contentSelector="textImageColumnContent_1" />
+      <OurServicesBlock contentSelector="ourServicesContent" />
       <CallToAction contentSelector="callToActionContent" />
     </main>
   );
