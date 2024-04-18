@@ -1,0 +1,46 @@
+{
+  "servicesHeroContent": {
+    "header": "e-commerce development",
+    "description_1": "we specialise in creating high-performance, secure, and scalable e-commerce platforms tailored to meet the unique needs of your business",
+    "description_2": "explore the range of technologies and tools we deploy to build cutting-edge e-commerce sites below",
+    "image": "/images/ecommerceDevelopment.png",
+    "imageAlt": "Dynamic e-commerce website development in action",
+    "linkText": "contact us",
+    "link": "/contact"
+  },
+
+  "textImageColumnContent_1": {
+    "par_1": "we specialise in building high-performance e-commerce websites that are not only fast and secure but also tailored to meet the diverse needs of different industries. our flexible approach ensures we select the best technology to match your specific requirements.",
+    "par_2": "for dynamic e-commerce platforms, we often recommend using Sanity.io, a robust headless CMS that allows for lightning-fast performance and bespoke functionality, crucial for handling complex product inventories and customer interactions. Alternatively, for those seeking a more traditional route, we offer solutions built on WooCommerce & Wordpress, renowned for its user-friendliness and extensive plugin ecosystem.",
+    "par_3": "uou will be closely involved in the design process from the outset, ensuring the final product not only meets but exceeds your expectations. Our focus is on driving results and conversions, integrating compelling aesthetics with functional design to create websites that not only look great but perform exceptionally.",
+    "image": "/images/ecommerceDevelopment2.jpg",
+    "imageAlt": "Expert e-commerce website development in action"
+  },
+
+  "pricingComparisonContent": {
+    "header": "pricing",
+    "subHeader": "e-commerce with tailroad",
+    "par_1": "we offer both traditional and headless CMS options, and specialize in e-commerce solutions with Shopify and WooCommerce. We work with you to find the best platform for your needs, ensuring your online store is efficient, secure, and tailored to your business objectives.",
+    "par_2": "we believe in transparency, and so we have outlined our pricing below. pricing will fluctuate depending on the size and complexity of your site, but this should give you a good idea of what to expect for a standard multi-page site or a dynamic e-commerce platform.",
+    "card_1": {
+      "title": "shopify platform",
+      "price": "£8000",
+      "par_1": "choose Shopify for a comprehensive, fully hosted e-commerce solution that lets you sell, ship, and manage your products with ease. Shopify is perfect for businesses looking for a reliable, scalable platform with extensive marketing tools and third-party app integrations.",
+      "par_2": "With Shopify, you benefit from a robust, secure online store setup that includes web hosting, SSL certificates, the flexibility to match your brand's style."
+    },
+    "card_2": {
+      "title": "WooCommerce platform",
+      "price": "£5000",
+      "par_1": "opt for WooCommerce if you desire a customisable e-commerce platform that integrates seamlessly with WordPress. ideal for those who are already familiar with WordPress.",
+      "par_2": "WooCommerce offers a flexible and scalable solution that supports an array of WordPress plugins, allowing for complete control over your store's design and functionality."
+    }
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  }
+}

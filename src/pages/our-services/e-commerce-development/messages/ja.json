@@ -1,0 +1,11 @@
+{
+  "servicesHeroContent": {
+    "header": "website development",
+    "description_1": "we build websites that are fast, secure, and modern in the technology that best suits your needs.",
+    "description_2": "see below for some of the different technologies we use to build your site.",
+    "image": "/images/webDevelopment.jpg",
+    "imageAlt": "Website development image",
+    "linkText": "Contact Us",
+    "link": "/contact"
+  }
+}
