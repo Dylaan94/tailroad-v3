@@ -1,0 +1,44 @@
+{
+  "servicesHeroContent": {
+    "header": "website development",
+    "description_1": "we build websites that are fast, secure, and modern in the technology that best suits your needs.",
+    "description_2": "see below for some of the different technologies we use to build your site.",
+    "image": "/images/webDevelopment.jpg",
+    "imageAlt": "Website development image",
+    "linkText": "Contact Us",
+    "link": "/contact"
+  },
+  "textImageColumnContent_1": {
+    "par_1": "We build websites that are fast, secure, and modern in the technology that best suits your needs. we aren't locked in on one single way of doing things, and realise that different industries require different approaches.",
+    "par_2": "for brochure sites we use Sanity.io, a headless CMS that allows us to build a site that is fast and secure with any bespoke functionality you need. we also use WordPress, a more traditional CMS, for sites that require a more traditional approach.",
+    "par_3": "you will be involved in the design process from the start, and we will work with you to ensure that your site is exactly what you need. we focus on results and conversions rather than primarily on aesthetics, although we do make sure that your site looks great too!",
+    "image": "/images/webDevelopment2.jpg",
+    "imageAlt": "Website development image"
+  },
+  "pricingComparisonContent": {
+    "header": "pricing",
+    "subHeader": "what you get with us",
+    "par_1": "we offer both traditional and headless CMS options, and will work with you to find the best solution for your needs. we also offer a range of additional services to help you get the most out of your website.",
+    "par_2": "we believe in transparency, and so we have outlined our pricing below. pricing will fluctuate depending on the size and complexity of your site, but this should give you a good idea of what to expect for a standard multi-page site.",
+    "card_1": {
+      "title": "headless CMS ",
+      "price": "£3000",
+      "par_1": "opt for our headless CMS solution using Sanity.io, designed for dynamic, scalable websites and applications. this platform excels in its flexibility, allowing for fully customisable interfaces and integration of shared data across multiple platforms. ",
+      "par_2": "ideal for businesses looking to build apps or services that need consistent data. enjoy built-in advanced features, superior speed, and enhanced security."
+    },
+    "card_2": {
+      "title": "traditional CMS ",
+      "price": "£2000",
+      "par_1": "utilise WordPress, the world's most popular CMS, known for its user-friendly interface and strong SEO capabilities. ideal for content-focused sites such as blogs and educational platforms. ",
+      "par_2": "WordPress offers a vast ecosystem of themes and plugins that facilitate easy updates and additions. perfect for those seeking a reliable, easy-to-manage online presence."
+    }
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  }
+}

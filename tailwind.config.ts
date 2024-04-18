@@ -19,6 +19,10 @@ const config: Config = {
         "primary-green-dark": "#3D8F87",
         "secondary-green": "#EDF9F8",
         "primary-dark": "#242424",
+        "secondary-dark": "#52525B",
+      },
+      screens: {
+        xs: "475px",
       },
     },
   },

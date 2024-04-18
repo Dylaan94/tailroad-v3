@@ -94,7 +94,7 @@
 }
 
 .fadeInSlow {
-  animation: fadeInSlow 3s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .fadeInSlowDelay {
@@ -106,7 +106,7 @@
 }
 
 .fadeInUp {
-  animation: fadeInUp 2s ease-in-out;
+  animation: fadeInUp 1s ease-in-out;
 }
 
 .slideInRight {
@@ -115,6 +115,10 @@
 
 .fadeInDelay2 {
   animation: fadeInSlow 2s ease-in-out;
+}
+
+.fadeInDelay3 {
+  animation: fadeInSlow 3s ease-in-out;
 }
 
 // delay in seconds from 1 to 10
@@ -129,4 +133,12 @@
 .jump {
   animation: jump 3s ease-in-out infinite;
   animation-delay: 5s;
+}
+
+@for $i from 1 through 20 {
+  .animation-delay-#{100 * $i} {
+    animation-delay: #{100 * $i}ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
 }
