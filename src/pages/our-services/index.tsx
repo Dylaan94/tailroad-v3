@@ -1,4 +1,5 @@
 // components
+import Breadcrumbs from "@/components/Breadcrumbs";
 import CallToAction from "@/components/CallToAction";
 import OurServicesBlock from "@/components/OurServicesBlock";
 import PageHero from "@/components/PageHero";
@@ -19,6 +20,7 @@ export default function page() {
           quality={30}
         />
       </span>
+      <Breadcrumbs />
       <TextImageColumn contentSelector="textImageColumnContent_1" />
       <OurServicesBlock contentSelector="ourServicesContent" />
       <CallToAction contentSelector="callToActionContent" />

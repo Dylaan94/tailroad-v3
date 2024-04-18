@@ -1,4 +1,5 @@
 // components
+import Breadcrumbs from "@/components/Breadcrumbs";
 import CallToAction from "@/components/CallToAction";
 import FounderBanner from "@/components/FounderBanner";
 import PageHero from "@/components/PageHero";
@@ -19,6 +20,7 @@ export default function AboutUs() {
           src="/images/onomichiSuidou.png"
         />
       </span>
+      <Breadcrumbs />
       <FounderBanner contentSelector="founderBannerContent" />
       <TextImageColumn contentSelector="textImageColumnContent_1" />
       <TextImageColumn
