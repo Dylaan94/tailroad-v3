@@ -1,0 +1,26 @@
+{
+  "servicesHeroContent": {
+    "header": "website design",
+    "description_1": "Our expert team designs and develops websites that blend modern aesthetics with functionality, ensuring each site delivers a seamless user experience optimised for conversions.",
+    "description_2": "by following UI/UX design principles and robust backend architectures, we ensure your online presence is powerful and purpose-driven.",
+    "image": "/images/webDesign.jpg",
+    "imageAlt": "Cutting-edge website design",
+    "linkText": "contact us",
+    "link": "/contact"
+  },
+  "textImageColumnContent_1": {
+    "par_1": "We build websites that are fast, secure, and modern in the technology that best suits your needs. we aren't locked in on one single way of doing things, and realise that different industries require different approaches.",
+    "par_2": "for brochure sites we use Sanity.io, a headless CMS that allows us to build a site that is fast and secure with any bespoke functionality you need. we also use WordPress, a more traditional CMS, for sites that require a more traditional approach.",
+    "par_3": "you will be involved in the design process from the start, and we will work with you to ensure that your site is exactly what you need. we focus on results and conversions rather than primarily on aesthetics, although we do make sure that your site looks great too!",
+    "image": "/images/webDevelopment2.jpg",
+    "imageAlt": "Website development image"
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  }
+}

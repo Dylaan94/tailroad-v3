@@ -54,7 +54,7 @@ export default function CallToAction({
             <label className="flex flex-col pb-8">
               {t("form_name")}
               <input
-                className="border border-primary-dark rounded-full mt-4 py-2 px-1"
+                className="border border-primary-dark rounded-lg mt-4 py-2 px-1"
                 type="text"
                 name="name"
               />
@@ -62,7 +62,7 @@ export default function CallToAction({
             <label className="flex flex-col pb-8">
               {t("form_email")}
               <input
-                className="border mt-4 border-primary-dark rounded-full py-2 px-1"
+                className="border mt-4 border-primary-dark rounded-lg py-2 px-1"
                 type="email"
                 name="email"
               />
@@ -70,13 +70,13 @@ export default function CallToAction({
             <label className="flex flex-col pb-16">
               {t("form_message")}
               <input
-                className="border mt-4 border-primary-dark rounded-full py-2 px-1"
+                className="border mt-4 border-primary-dark rounded-lg py-2 px-1"
                 type="text"
                 name="message"
               />
             </label>
             <button
-              className="border self-end rounded-full w-fit  py-2 px-12 border-primary-dark"
+              className="border self-end rounded-lg w-fit  py-2 px-12 border-primary-dark"
               type="submit"
             >
               {t("form_button")}

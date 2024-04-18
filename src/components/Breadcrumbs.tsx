@@ -48,10 +48,10 @@ export default function Breadcrumbs({
         className="breadcrumbs-nav w-11/12 max-w-screen-xl py-8"
         aria-label="breadcrumb"
       >
-        <ol className="flex flex-wrap">
+        <ol className="flex flex-wrap breadcrumb-parent-container">
           {breadcrumbs.map((breadcrumb, index) => (
-            <li className="" key={index}>
-              <ScrollAnimation animateIn="fadeIn" delay={index * 200}>
+            <ScrollAnimation animateIn="fadeIn" delay={index * 200}>
+              <li className="" key={index}>
                 <Link
                   className="text-sm sm:text-base md:text-lg lg:text-xl primary-font"
                   href={breadcrumb.path}
@@ -68,8 +68,8 @@ export default function Breadcrumbs({
                     className="mx-4"
                   />
                 )}
-              </ScrollAnimation>
-            </li>
+              </li>
+            </ScrollAnimation>
           ))}
         </ol>
       </nav>
