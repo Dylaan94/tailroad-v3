@@ -50,8 +50,8 @@ export default function Breadcrumbs({
       >
         <ol className="flex flex-wrap breadcrumb-parent-container">
           {breadcrumbs.map((breadcrumb, index) => (
-            <ScrollAnimation animateIn="fadeIn" delay={index * 200}>
-              <li className="" key={index}>
+            <ScrollAnimation animateIn="fadeIn" key={index} delay={index * 200}>
+              <li className="">
                 <Link
                   className="text-sm sm:text-base md:text-lg lg:text-xl primary-font"
                   href={breadcrumb.path}
