@@ -12,6 +12,7 @@ import ColumnTextLink from "../components/ColumnTextLink";
 // utils
 import { useTranslations } from "next-intl";
 import CallToAction from "@/components/CallToAction";
+import OurServicesBlockAlt from "@/components/OurServicesBlockAlt";
 
 export default function Home() {
   // state to check if the page is loading, show loading component for 3 seconds
@@ -43,8 +44,8 @@ export default function Home() {
         contentSelector="columnTextLinkContent"
         highlightTailroad={true}
       />
+      <OurServicesBlockAlt contentSelector="ourServicesContent" />
       <OurBrands contentSelector="ourBrandsContent" />
-      <OurServices contentSelector="ourServicesContent" />
       <TextImage contentSelector="textImageContent" />
       <OurWorkBlock contentSelector="ourWorkContent" />
       <CallToAction contentSelector="callToActionContent" />

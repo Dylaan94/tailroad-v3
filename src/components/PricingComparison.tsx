@@ -80,6 +80,7 @@ export default function PricingComparison({
                     text="get started"
                     link="/contact-us"
                     internalLink={true}
+                    textSize="lg:text-xl"
                   />
                 </span>
               </ScrollAnimation>

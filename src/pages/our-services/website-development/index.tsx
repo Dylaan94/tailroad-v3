@@ -3,6 +3,7 @@ import ServicesHero from "@/components/ServicesHero";
 import TextImageColumn from "@/components/TextImageColumn";
 import CallToAction from "@/components/CallToAction";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import OurBrands from "@/components/OurBrands";
 
 export default function WebsiteDevelopment() {
   return (
@@ -14,6 +15,7 @@ export default function WebsiteDevelopment() {
         imageOnLeft={true}
       />
       <PricingComparison contentSelector="pricingComparisonContent" />
+      <OurBrands contentSelector="ourBrandsContent" />
       <CallToAction contentSelector="callToActionContent" />
     </main>
   );

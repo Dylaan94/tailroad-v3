@@ -142,3 +142,9 @@
     opacity: 0;
   }
 }
+
+// transition for when a div changes height
+
+.height-ease {
+  transition: height 0.4s ease;
+}

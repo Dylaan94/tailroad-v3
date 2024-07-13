@@ -43,7 +43,7 @@ export default function Breadcrumbs({
   }, [router]);
 
   return (
-    <section className={`breadcrumbs flex justify-center ${bgColour}`}>
+    <section className={`breadcrumbs w-full flex justify-center ${bgColour}`}>
       <nav
         className="breadcrumbs-nav w-11/12 max-w-screen-xl py-8"
         aria-label="breadcrumb"

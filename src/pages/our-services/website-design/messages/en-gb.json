@@ -22,5 +22,42 @@
     "form_email": "email",
     "form_message": "message",
     "form_button": "send "
+  },
+  "columnTextLinkContent": {
+    "mainText": "at tailroad, we pride ourselves on our modern, functional, and user-friendly websites.",
+    "subText_1": "that's why we make sure your site is perfect, both for the user and for conversions",
+    "subText_2": "that way you can be sure that your site is working for you, not against you.",
+    "linkText": "get in touch",
+    "link": "/contact-us"
+  },
+  "ourBrandsContent": {
+    "header": "brands we've worked with",
+    "brand_1": {
+      "name": "Honyaku Cloud",
+      "image": "/images/brands/honyaku.png"
+    },
+    "brand_2": {
+      "name": "Queen & Co",
+      "image": "/images/brands/queenco.png"
+    },
+    "brand_3": {
+      "name": "Crest Environmental",
+      "image": "/images/brands/crest.png"
+    },
+    "brand_4": {
+      "name": "Hachinohe City",
+      "image": "/images/brands/hachinohe.png"
+    },
+    "brand_5": {
+      "name": "Asoviva",
+      "image": "/images/brands/asoviva.png"
+    },
+    "brand_6": {
+      "name": "Manabu Dev",
+      "image": "/images/brands/manabu.png"
+    },
+
+    "link": "/our-work",
+    "linkText": "view our case studies"
   }
 }

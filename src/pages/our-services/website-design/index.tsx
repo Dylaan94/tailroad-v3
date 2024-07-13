@@ -2,6 +2,8 @@ import ServicesHero from "@/components/ServicesHero";
 import TextImageColumn from "@/components/TextImageColumn";
 import CallToAction from "@/components/CallToAction";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import OurBrands from "@/components/OurBrands";
+import ColumnTextLink from "@/components/ColumnTextLink";
 
 export default function WebsiteDesign() {
   return (
@@ -12,6 +14,11 @@ export default function WebsiteDesign() {
         contentSelector="textImageColumnContent_1"
         imageOnLeft={true}
       />
+      <ColumnTextLink
+        contentSelector="columnTextLinkContent"
+        highlightTailroad={true}
+      />
+      <OurBrands contentSelector="ourBrandsContent" />
       <CallToAction contentSelector="callToActionContent" />
     </main>
   );

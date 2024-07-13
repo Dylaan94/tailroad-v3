@@ -1,0 +1,57 @@
+{
+  "servicesHeroContent": {
+    "header": "mobile app development",
+    "description_1": "we specialise in crafting custom mobile applications that excel in both functionality and aesthetics, delivering an optimal user experience designed to boost engagement and conversions",
+    "description_2": "by developing simultaneously for both Apple iOS and Android platforms, we ensure your application reaches a wide audience.",
+    "image": "/images/mobileAppDevelopment.png",
+    "imageAlt": "Cutting-edge mobile app development",
+    "linkText": "contact us",
+    "link": "/contact"
+  },
+  "textImageColumnContent_1": {
+    "par_1": "We build websites that are fast, secure, and modern in the technology that best suits your needs. we aren't locked in on one single way of doing things, and realise that different industries require different approaches.",
+    "par_2": "for brochure sites we use Sanity.io, a headless CMS that allows us to build a site that is fast and secure with any bespoke functionality you need. we also use WordPress, a more traditional CMS, for sites that require a more traditional approach.",
+    "par_3": "you will be involved in the design process from the start, and we will work with you to ensure that your site is exactly what you need. we focus on results and conversions rather than primarily on aesthetics, although we do make sure that your site looks great too!",
+    "image": "/images/webDevelopment2.jpg",
+    "imageAlt": "Website development image"
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  },
+
+  "ourBrandsContent": {
+    "header": "brands we've worked with",
+    "brand_1": {
+      "name": "Honyaku Cloud",
+      "image": "/images/brands/honyaku.png"
+    },
+    "brand_2": {
+      "name": "Queen & Co",
+      "image": "/images/brands/queenco.png"
+    },
+    "brand_3": {
+      "name": "Crest Environmental",
+      "image": "/images/brands/crest.png"
+    },
+    "brand_4": {
+      "name": "Hachinohe City",
+      "image": "/images/brands/hachinohe.png"
+    },
+    "brand_5": {
+      "name": "Asoviva",
+      "image": "/images/brands/asoviva.png"
+    },
+    "brand_6": {
+      "name": "Manabu Dev",
+      "image": "/images/brands/manabu.png"
+    },
+
+    "link": "/our-work",
+    "linkText": "view our case studies"
+  }
+}

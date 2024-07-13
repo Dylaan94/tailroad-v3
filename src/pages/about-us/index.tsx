@@ -2,6 +2,7 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CallToAction from "@/components/CallToAction";
 import FounderBanner from "@/components/FounderBanner";
+import OurBrands from "@/components/OurBrands";
 import PageHero from "@/components/PageHero";
 import TextImageColumn from "@/components/TextImageColumn";
 import Image from "next/image";
@@ -28,6 +29,7 @@ export default function AboutUs() {
         imageOnLeft={true}
         background="bg-white"
       />
+      <OurBrands contentSelector="ourBrandsContent" />
       <CallToAction contentSelector="callToActionContent" />
     </main>
   );

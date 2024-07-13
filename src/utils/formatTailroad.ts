@@ -10,7 +10,7 @@ export default function formatTailroad(text: string): string {
   // Replace the first occurrence of "tailroad" with a span tag that wraps "tailroad"
   const textWithSpan = text.replace(
     "tailroad",
-    `<span class="text-5xl tailroad-font text-primary-green ">tailroad</span>`
+    `<span class="text-6xl tailroad-font text-primary-green ">tailroad</span>`
   );
 
   return textWithSpan;

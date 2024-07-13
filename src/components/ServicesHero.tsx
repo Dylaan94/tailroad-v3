@@ -45,6 +45,7 @@ export default function ServicesHero({
               internalLink={true}
               text={t("linkText")}
               link={t("link")}
+              textSize="lg:text-xl"
             />
           </span>
         </div>
