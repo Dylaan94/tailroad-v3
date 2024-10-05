@@ -19,8 +19,8 @@ export default function OurServicesBlock({
     "service_4",
     "service_5",
     "service_6",
-    "service_7",
-    "service_8",
+    // "service_7",
+    // "service_8",
   ];
 
   // state for tracking which service is being hovered over

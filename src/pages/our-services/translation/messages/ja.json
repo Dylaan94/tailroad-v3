@@ -1,0 +1,11 @@
+{
+  "servicesHeroContent": {
+    "header": "translation & localisation",
+    "description_1": "we provide professional translation and localisation services to help you reach a global audience. our team of native speakers ensures your content is accurately translated and culturally adapted to resonate with your target market.",
+    "description_2": "we work with a range of industries and languages, providing high-quality translations that are both accurate and culturally sensitive.",
+    "image": "/images/translation.jpg",
+    "imageAlt": "Cutting-edge translation & localisation",
+    "linkText": "contact us",
+    "link": "/contact"
+  }
+}

@@ -31,8 +31,8 @@ export default function OurServicesBlockAlt({
     { name: "service_4", colour: "bg-light-purple", delay: 900 },
     { name: "service_5", colour: "bg-medium-green", delay: 1200 },
     { name: "service_6", colour: "bg-light-red", delay: 1200 },
-    { name: "service_7", colour: "bg-light-blue", delay: 1200 },
-    { name: "service_8", colour: "bg-medium-green", delay: 1200 },
+    // { name: "service_7", colour: "bg-light-blue", delay: 1200 },
+    // { name: "service_8", colour: "bg-medium-green", delay: 1200 },
   ];
 
   return (

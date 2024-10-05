@@ -1,0 +1,74 @@
+{
+  "servicesHeroContent": {
+    "header": "translation & localisation",
+    "description_1": "we provide professional translation and localisation services to help you reach a global audience. our team of native speakers ensures your content is accurately translated and culturally adapted to resonate with your target market.",
+    "description_2": "we work with a range of industries and languages, providing high-quality translations that are both accurate and culturally sensitive.",
+    "image": "/images/translation.jpg",
+    "imageAlt": "Cutting-edge translation & localisation",
+    "linkText": "contact us",
+    "link": "/contact"
+  },
+  "textImageColumnContent_1": {
+    "par_1": "our translation service is more than just converting words from one language to another. it is about understanding your business and the impact you have online, and how the world sees you.",
+    "par_2": "we work with you to create a digital presence that is unique to you and your business. ensuring that your brand is accurately translated and culturally adapted to resonate with your target market.",
+    "par_3": "we provide professional translation and localisation services to help you reach a global audience. our team of native speakers ensures your content is accurately translated and culturally adapted to resonate with your target market.",
+    "image": "/images/translation2.jpg",
+    "imageAlt": "Translation & localisation image"
+  },
+  "pricingComparisonContent": {
+    "header": "translation & localisation pricing",
+    "subHeader": "competitively priced translation and localisation services,",
+    "par_1": "our pricing is based on the complexity and length of the text, as well as the language pair and the deadline. we offer a range of packages to suit your needs, from one-off translations to ongoing projects.",
+    "par_2": "our team of native speakers ensures your content is accurately translated and culturally adapted to resonate with your target market. we work with a range of industries and languages, providing high-quality translations that are both accurate and culturally sensitive.",
+    "card_1": {
+      "title": "standard translation",
+      "price": "£0.20 per word",
+      "par_1": "our standard translation service is perfect for general texts that do not require specialist knowledge. we work with a range of industries and languages, providing high-quality translations that are both accurate and culturally sensitive.",
+      "par_2": "we offer competitive pricing and fast turnaround times, ensuring your content is translated quickly and accurately."
+    },
+    "card_2": {
+      "title": "copywriting and localisation",
+      "price": "priced per project",
+      "par_1": "our specialist translation service is ideal for texts that require specialist knowledge, such as legal or technical documents, or maintaining branding across languages.",
+      "par_2": "our translators have expertise in a range of industries and languages, ensuring your content is accurately translated and culturally adapted to resonate with your target market."
+    }
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  },
+  "ourBrandsContent": {
+    "header": "brands we've worked with",
+    "brand_1": {
+      "name": "Honyaku Cloud",
+      "image": "/images/brands/honyaku.png"
+    },
+    "brand_2": {
+      "name": "Queen & Co",
+      "image": "/images/brands/queenco.png"
+    },
+    "brand_3": {
+      "name": "Crest Environmental",
+      "image": "/images/brands/crest.png"
+    },
+    "brand_4": {
+      "name": "Hachinohe City",
+      "image": "/images/brands/hachinohe.png"
+    },
+    "brand_5": {
+      "name": "Asoviva",
+      "image": "/images/brands/asoviva.png"
+    },
+    "brand_6": {
+      "name": "Manabu Dev",
+      "image": "/images/brands/manabu.png"
+    },
+
+    "link": "/our-work",
+    "linkText": "view our case studies"
+  }
+}

@@ -60,16 +60,8 @@
       "link": "/our-services/web-app-development"
     },
     "service_6": {
-      "name": "search engine optimisation (SEO)",
-      "link": "/our-services/seo"
-    },
-    "service_7": {
-      "name": "translation services",
+      "name": "translation & localisation",
       "link": "/our-services/translation"
-    },
-    "service_8": {
-      "name": "brochure design",
-      "link": "/our-services/brochure-design"
     }
   },
   "textImageContent": {
