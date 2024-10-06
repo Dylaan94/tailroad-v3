@@ -21,7 +21,7 @@ export default function TextImageColumn({
   return (
     <>
       <section
-        className={`textColumns relative flex justify-center py-40 ${background}`}
+        className={`textImageColumns relative flex justify-center py-12 md:py-40 ${background}`}
       >
         <div
           className={`textColumns-container flex-col max-w-screen-xl w-11/12 flex ${

@@ -28,7 +28,7 @@ export default function OurServicesBlock({
 
   return (
     <section className="ourServicesBlock w-full min-h-screen relative bg-primary-dark flex justify-center">
-      <div className="w-11/12 max-w-screen-2xl flex flex-col py-44 ">
+      <div className="w-11/12 max-w-screen-2xl flex flex-col my-20 md:py-44 ">
         <h2 className="text-4xl text-white mb-24 secondary-font">
           {t("header")}
         </h2>

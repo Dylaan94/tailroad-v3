@@ -14,20 +14,22 @@ export default function TextImage({
   const t = useTranslations(contentSelector);
 
   return (
-    <section className={`${backgroundColour} py-36 flex justify-center w-full`}>
-      <div className="w-11/12 max-w-screen-2xl flex justify-between">
+    <section
+      className={`${backgroundColour} textImage py-20 sm:py-36 flex justify-center w-full`}
+    >
+      <div className="w-11/12 max-w-screen-2xl flex flex-col md:flex-row justify-between">
         {/* Left Column */}
-        <ScrollAnimation className="w-2/5" animateIn="fadeInUp">
-          <h2 className="text-4xl secondary-font text-primary-dark  mb-16">
+        <ScrollAnimation className="w-full md:w-2/5" animateIn="fadeInUp">
+          <h2 className="text-4xl secondary-font text-primary-dark mb-16">
             {t("header")}
           </h2>
         </ScrollAnimation>
         {/* Right Column */}
 
-        <div className="w-3/5 flex flex-col">
+        <div className="w-full md:w-3/5 flex flex-col">
           <ScrollAnimation
             animateIn="fadeIn"
-            className="w-full relative h-[800px]"
+            className="w-full relative h-[300px] md:h-[800px]"
           >
             <Image
               src={t("image")}
@@ -52,6 +54,7 @@ export default function TextImage({
               internalLink={true}
               text={t("linkText")}
               link={t("link")}
+              textSize="text-2xl md:text-3xl"
             />
           </ScrollAnimation>
         </div>

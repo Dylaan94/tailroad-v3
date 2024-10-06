@@ -7,6 +7,7 @@ export interface SimpleButtonLinkProps {
   bgColour?: string;
   textColour?: string;
   textSize?: string;
+  classes?: string;
 }
 
 export interface ColumnTextLinkProps {

@@ -36,13 +36,13 @@ export default function OurServicesBlockAlt({
   ];
 
   return (
-    <section className="w-full pb-44 ">
+    <section className="w-full pb-20 md:pb-44 ">
       <Swiper
         spaceBetween={50}
         slidesPerView={3.3}
         breakpoints={{
           0: {
-            slidesPerView: 1.2,
+            slidesPerView: 1.3,
             spaceBetween: 30,
           },
           768: {

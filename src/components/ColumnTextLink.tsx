@@ -24,9 +24,12 @@ export default function ColumnTextLink({
 
   return (
     <section className="w-full justify-center flex kaisei-decol ">
-      <div className="w-3/4 max-w-screen-xl flex justify-between py-44 ">
+      <div className="w-3/4 max-w-screen-xl flex flex-col md:flex-row justify-between py-20 md:py-44 ">
         {/* Left Column */}
-        <ScrollAnimation animateIn="fadeInUp" className="w-1/3">
+        <ScrollAnimation
+          animateIn="fadeInUp"
+          className="w-full text-center md:text-left md:w-1/3"
+        >
           <h2 className="text-4xl secondary-font ">
             <span
               dangerouslySetInnerHTML={{
@@ -40,7 +43,7 @@ export default function ColumnTextLink({
         <ScrollAnimation
           animateIn="fadeInUp"
           delay={500}
-          className="w-1/2 flex flex-col primary-font"
+          className="w-full text-center md:text-left mt-8 md:mt-0 md:w-1/2 flex flex-col primary-font"
         >
           {subText.map((text, index) => (
             <p key={index} className="text-2xl  pb-4">
@@ -52,6 +55,8 @@ export default function ColumnTextLink({
             internalLink={true}
             text={t("linkText")}
             link={t("linkUrl")}
+            textSize="text-2xl md:text-3xl"
+            classes="mx-auto md:mx-0"
           />
         </ScrollAnimation>
       </div>

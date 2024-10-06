@@ -19,30 +19,30 @@ export default function TextImageStack({
     <section
       className={`textImageStack ${
         imageLeft ? "flex-row" : "flex-row-reverse"
-      } flex min-h-[500px] items-center mb-24`}
+      } flex flex-col md:flex-row md:min-h-[500px] items-center mb-24`}
     >
       <ScrollAnimation
         animateIn="fadeIn"
         delay={500 * delay}
         className={` ${
-          imageLeft ? "mr-16" : "ml-16"
-        } caseStudyImage relative w-3/5  h-full `}
+          imageLeft ? "md:mr-16" : "md:ml-16"
+        } caseStudyImage relative w-full md:w-3/5 h-[200px] mb-4 md:mb-0 md:h-full `}
       >
         <Image
           src={image || ""}
           alt={`image for ${header} image in image stack` || ""}
           fill={true}
           sizes="800px"
-          className="object-contain"
+          className="object-contain "
         />
       </ScrollAnimation>
 
       <ScrollAnimation
-        className="caseStudyText w-2/5 "
+        className="caseStudyText w-full text-center md:text-left md:w-2/5 "
         animateIn="fadeIn"
         delay={600 * delay}
       >
-        <h3 className="text-4xl mb-12 secondary-font ">{header}</h3>
+        <h3 className="text-4xl mb-6 md:mb-12 secondary-font ">{header}</h3>
         <p className="mb-4 text-xl primary-font">{text_1}</p>
         <p className="mb-4 text-xl primary-font">{text_2}</p>
 
@@ -50,6 +50,8 @@ export default function TextImageStack({
           internalLink={true}
           text={linkText || ""}
           link={link || ""}
+          textSize="text-xl md:text-2xl"
+          classes="mx-auto md:mx-0"
         />
       </ScrollAnimation>
     </section>

@@ -18,7 +18,7 @@ export default function Hero() {
 
         {/* Header */}
         <div className="absolute w-full h-full flex items-center justify-center">
-          <h1 className=" text-[150px] lg:text-[200px] 2xl:text-[300px] tailroad-font ">
+          <h1 className=" text-[100px] md:text-[150px] lg:text-[200px] 2xl:text-[300px] tailroad-font ">
             <Typewriter
               options={{
                 cursor: "",

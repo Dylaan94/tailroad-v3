@@ -16,20 +16,28 @@ export default function CallToAction({
     <section
       className={`callToAction ${background} w-full flex justify-center`}
     >
-      <div className="callToAction-container max-w-screen-xl w-3/4 flex py-16">
+      <div className="callToAction-container max-w-screen-xl flex-col items-center w-11/12 md:w-3/4 flex py-16">
         {/* Left */}
         <ScrollAnimation
           animateIn="fadeIn"
-          className="callToAction-left flex items-center  w-2/3"
+          className="callToAction-left flex items-center w-11/12 md:w-2/3"
         >
           {/* Left Content box */}
-          <span className="callToAction-left-content flex flex-col items-center w-11/12 bg-zinc-50 p-16 text-center text-primary-dark text-2xl primary-font">
+          <span className="callToAction-left-content flex flex-col items-center w-full md:w-11/12 bg-zinc-50 p-16 text-center text-primary-dark text-2xl primary-font">
+            <Image
+              className="mb-6 md:hidden"
+              src={"/images/logo.png"}
+              alt={"logo"}
+              width={50}
+              height={50}
+            />
+
             {/* text content */}
             <p className="mb-6">{t("par_1")}</p>
             <p>{t("par_2")}</p>
 
             <Image
-              className="mt-12"
+              className="mt-12 hidden md:block"
               src={"/images/logo.png"}
               alt={"logo"}
               width={50}
@@ -42,7 +50,7 @@ export default function CallToAction({
         <ScrollAnimation
           animateIn="fadeIn"
           delay={500}
-          className="callToAction-right w-1/3 border-l border-primary-dark "
+          className="callToAction-right w-11/12 md:w-1/3 border-l border-primary-dark "
         >
           {/* Form */}
 

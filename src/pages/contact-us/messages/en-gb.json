@@ -1,8 +1,8 @@
 {
   "servicesHeroContent": {
     "header": "contact us",
-    "description_1": "we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
-    "description_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "description_1": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "description_2": "if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
     "image": "/images/contactUs.jpg",
     "imageAlt": "Cutting-edge contact us",
     "linkText": "contact us",
