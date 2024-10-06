@@ -4,7 +4,9 @@
     "description_1": "how we helped honyaku cloud by developing a responsive multi-platform solution",
     "description_2": "we specialise in multi platform experiences, utilising the tools most appropriate for your business",
     "image": "/images/caseStudies/honyakuCloud.png",
-    "imageAlt": "honyaku cloud"
+    "imageAlt": "honyaku cloud",
+    "linkText": "contact us",
+    "link": "/contact-us"
   },
   "caseStudyContentContent": {
     "overviewHeader": "the future of translation memory management",
