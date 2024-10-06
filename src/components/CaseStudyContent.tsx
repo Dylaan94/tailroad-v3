@@ -12,7 +12,7 @@ export default function CaseStudyContent({
   return (
     <section className="caseStudyContent flex justify-center">
       {/* Container */}
-      <div className="caseStudyContent-container w-11/12 max-w-screen-xl grid grid-cols-2 py-20 md:py-44 ">
+      <div className="caseStudyContent-container w-11/12 grid-cols-1 max-w-screen-xl grid md:grid-cols-2 py-20 md:py-44 ">
         {/* Left Column */}
 
         <div className="caseStudyContent-left">
@@ -21,7 +21,7 @@ export default function CaseStudyContent({
 
           {/* Pills */}
 
-          <div className=" flex flex-wrap gap-4 w-1/2">
+          <div className=" flex flex-wrap gap-4 w-full md:w-1/2 mb-12 md:mb-0">
             {pills.map((pill, index) => (
               <div
                 key={index}
