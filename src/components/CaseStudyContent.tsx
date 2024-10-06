@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function CaseStudyContent({
   contentSelector,
@@ -12,7 +13,7 @@ export default function CaseStudyContent({
   return (
     <section className="caseStudyContent flex justify-center">
       {/* Container */}
-      <div className="caseStudyContent-container w-11/12 grid-cols-1 max-w-screen-xl grid md:grid-cols-2 py-20 md:py-44 ">
+      <ScrollAnimation animateIn="fadeInUp" className="caseStudyContent-container w-11/12 grid-cols-1 max-w-screen-xl grid md:grid-cols-2 py-20 md:py-44 ">
         {/* Left Column */}
 
         <div className="caseStudyContent-left">
@@ -43,7 +44,7 @@ export default function CaseStudyContent({
 
           <p>{t("theSolutionContent")}</p>
         </div>
-      </div>
+      </ScrollAnimation>
     </section>
   );
 }
