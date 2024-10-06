@@ -1,0 +1,56 @@
+{
+  "servicesHeroContent": {
+    "header": "honyaku cloud",
+    "description_1": "how we helped honyaku cloud by developing a responsive multi-platform solution",
+    "description_2": "we specialise in multi platform experiences, utilising the tools most appropriate for your business",
+    "image": "/images/caseStudies/honyakuCloud.png",
+    "imageAlt": "honyaku cloud"
+  },
+  "caseStudyContentContent": {
+    "overviewHeader": "the future of translation memory management",
+    "pill_1": "web development",
+    "pill_2": "web design",
+    "pill_3": "mobile app development",
+    "pill_4": "next.js",
+    "description": "honyaku cloud is a translation memory management system that allows users to store, manage and share translation memories. the system is designed to be user-friendly and intuitive, with a focus on simplicity and ease of use",
+    "theChallegeContent": "honyaku cloud requested a way to manage their translation memories in a more efficient and user-friendly way. they wanted a system that was easy to use and that would allow them to store, manage and share their translation memories with ease. they also wanted a system that would be scalable and that would be able to grow with their business along with having secure authentication and authorisation",
+    "theSolutionContent": "we developed a responsive multi-platform solution that allows honyaku cloud to store, manage and share their translation memories with ease. the system is designed to be user-friendly and intuitive, with a focus on simplicity and ease of use. we also ensured that the system is scalable and that it can grow with their business. the system also has secure authentication and authorisation. the solution was built in next.js, a react framework that allows for fast and efficient development of web applications and hosted on vercel, a cloud platform that allows for easy deployment and scaling of web applications"
+  },
+  "callToActionContent": {
+    "par_1": "at tailroad, we are passionate about helping and continually supporting businesses whatever stage they are at. if you are looking for a new website or app, or need help with an existing project, we would love to hear from you.",
+    "par_2": "get in touch with us today to see how we can help you achieve your digital goals.",
+    "form_name": "name",
+    "form_email": "email",
+    "form_message": "message",
+    "form_button": "send "
+  },
+  "ourBrandsContent": {
+    "header": "brands we've worked with",
+    "brand_1": {
+      "name": "Honyaku Cloud",
+      "image": "/images/brands/honyaku.png"
+    },
+    "brand_2": {
+      "name": "Queen & Co",
+      "image": "/images/brands/queenco.png"
+    },
+    "brand_3": {
+      "name": "Crest Environmental",
+      "image": "/images/brands/crest.png"
+    },
+    "brand_4": {
+      "name": "Hachinohe City",
+      "image": "/images/brands/hachinohe.png"
+    },
+    "brand_5": {
+      "name": "Asoviva",
+      "image": "/images/brands/asoviva.png"
+    },
+    "brand_6": {
+      "name": "Manabu Dev",
+      "image": "/images/brands/manabu.png"
+    },
+    "link": "/our-work",
+    "linkText": "view our case studies"
+  }
+}

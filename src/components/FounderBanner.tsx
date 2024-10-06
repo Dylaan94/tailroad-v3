@@ -13,7 +13,7 @@ export default function FounderBanner({
   const t = useTranslations(contentSelector);
 
   return (
-    <section className="founderBanner bg-zinc-50 w-full flex justify-center py-24">
+    <section className="founderBanner bg-zinc-50 w-full flex justify-center py-24 overflow-hidden">
       <div className="founderBanner-container w-11/12 flex flex-col sm:flex-row max-w-screen-xl">
         <div className="founderBanner-left w-full sm:w-1/2">
           <div className="founderBanner-left-content flex">

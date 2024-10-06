@@ -16,7 +16,7 @@ export default function CallToAction({
     <section
       className={`callToAction ${background} w-full flex justify-center`}
     >
-      <div className="callToAction-container max-w-screen-xl flex-col items-center w-11/12 md:w-3/4 flex py-16">
+      <div className="callToAction-container max-w-screen-xl flex-col items-center w-11/12 md:w-3/4 flex md:flex-row py-16">
         {/* Left */}
         <ScrollAnimation
           animateIn="fadeIn"

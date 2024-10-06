@@ -88,6 +88,14 @@
       "text_2": "see our work for a tourism event in Japan in three languages: English, Japanese and Chinese",
       "link": "/our-work/hachinohe",
       "linkText": "view case study"
+    },
+    "caseStudy_3": {
+      "header": "database migration and gateway system",
+      "image": "/images/caseStudies/honyakuGateway.jpg",
+      "text_1": "we developed a specialised backend system for a client that needed to migrate their database and create a gateway system for their customers",
+      "text_2": "we implemented automated processes to ensure that the migration was seamless, data is continously updated, and that the gateway system was secure",
+      "link": "/our-work/honyaku-gateway",
+      "linkText": "view case study"
     }
   },
   "callToActionContent": {

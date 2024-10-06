@@ -18,8 +18,8 @@ export default function TextImageStack({
   return (
     <section
       className={`textImageStack ${
-        imageLeft ? "flex-row" : "flex-row-reverse"
-      } flex flex-col md:flex-row md:min-h-[500px] items-center mb-24`}
+        imageLeft ? "md:flex-row" : "md:flex-row-reverse"
+      } flex flex-col  md:min-h-[500px] items-center mb-24`}
     >
       <ScrollAnimation
         animateIn="fadeIn"
