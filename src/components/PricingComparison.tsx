@@ -54,11 +54,11 @@ export default function PricingComparison({
                 key={index}
                 className="pricingComparison-card flex flex-col items-center border shadow-sm px-8 py-12 bg-zinc-50"
               >
-                <h4 className="text-2xl secondary-font pb-6">
+                <h4 className="text-2xl secondary-font text-center pb-6">
                   {t(`${card}.title`)}
                 </h4>
 
-                <p className="pb-8">
+                <p className="pb-8 text-center">
                   from{" "}
                   <span className="text-4xl primary-font">
                     {t(`${card}.price`)}
