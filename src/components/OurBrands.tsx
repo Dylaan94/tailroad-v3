@@ -10,14 +10,7 @@ export default function OurBrands({
 }) {
   const t = useTranslations(contentSelector);
 
-  const brands = [
-    "brand_1",
-    "brand_2",
-    "brand_3",
-    "brand_4",
-    "brand_5",
-    "brand_6",
-  ];
+  const brands = ["brand_1", "brand_2", "brand_3", "brand_4", "brand_5"];
 
   return (
     <section className="bg-secondary-green py-32 flex justify-center">
